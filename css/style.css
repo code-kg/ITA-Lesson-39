@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato','arial', sans-serif;
     color: #000;
-    background: #ffffff;
+    background: #75b4aa url(../upload/bg-lines.png) 0 0 no-repeat;
     font-size: 14px;
     line-height: 1.3;
 }
@@ -9,4 +9,30 @@ body {
     min-width: 320px;
     max-width: 1160px;
     margin: 0 auto;
+}
+.header__logo {
+    float: left;
+}
+.header__menu {
+    float: right;
+}
+.header__menu-list{
+    display: inline-block;
+}
+.header__menu-item{
+    list-style-type: none;
+    padding: 32px 13px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.header__menu-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 32px 13px;
+    border-radius: 3px;
+}
+.header__menu-item:hover{
+    background-color: rgba(117,180,170,0.9);
 }
