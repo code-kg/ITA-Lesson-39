@@ -10,6 +10,9 @@ body {
     max-width: 1160px;
     margin: 0 auto;
 }
+.header {
+    overflow: hidden;
+}
 .header__logo {
     float: left;
 }
@@ -18,6 +21,8 @@ body {
 }
 .header__menu-list{
     display: inline-block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 .header__menu-item{
     list-style-type: none;
