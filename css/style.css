@@ -12,12 +12,16 @@ body {
 }
 .header {
     overflow: hidden;
+    padding: 6px 0 0 0;
+    margin: 0 0 112px 0;
 }
 .header__logo {
     float: left;
+    margin: 25px 0 0 30px;
 }
 .header__menu {
     float: right;
+    margin: 0 16px 0 0;
 }
 .header__menu-list{
     display: inline-block;
@@ -26,9 +30,12 @@ body {
 }
 .header__menu-item{
     list-style-type: none;
-    padding: 32px 13px;
+    padding: 32px 12px;
     border-radius: 3px;
     display: inline-block;
+}
+.header__menu-item:hover{
+    background-color: rgba(130,200,189,0.9);
 }
 .header__menu-link{
     text-decoration: none;
@@ -38,6 +45,126 @@ body {
     padding: 32px 13px;
     border-radius: 3px;
 }
-.header__menu-item:hover{
-    background-color: rgba(117,180,170,0.9);
+.content{
+    margin: 0 32px 0 35px;
+    overflow: hidden;
+}
+.content__title, .content__text{
+    padding: 0 0 0 0;
+    margin: 0 0 0;
+    color: #ffffff;
+    text-align: center;
+}
+.content__title{
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 48px;
+    padding: 0 0 34px 0;
+}
+.content__text{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 7px;
+    margin: 0 0 120px 0;
+}
+.content__address, .content__contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 80px 0;
+}
+.content__address {
+    width: 505px;
+    float: left;
+    padding: 0 0 30px 0;
+}
+.content__address-title {
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+.content__address-details {
+    width: 240px;
+}
+.content__address-logo {
+    margin: 0;
+    padding: 0 0 19px 0;
+    color: #c0dfda;
+    font-size: 20px;
+    line-height: 15px;
+}
+.content__address-district{
+    margin: 0 0 76px 0;
+}
+.content__address-street{
+    color: #ffffff;
+    font-size: 16px;
+}
+.content__address-phone, .content__address-fax, .content__address-email, .content__address-skype {
+    display: block;
+    color: #ffffff;
+}
+.content__address-phoneW, .content__address-faxW, .content__address-emailW, .content__address-skypeW {
+    width: 72px;
+    font-style: normal;
+    color: #c0dfda;
+    display: inline-block;
+}
+.content__address-map {
+    width: 260px;
+}
+.address-map__img{
+    border-radius: 3px;
+}
+.content__contact{
+    float: right;
+    width: 540px;
+}
+.content__contact-title{
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+.content__contact-formName, .content__contact-formMail {
+    width: 260px;
+    padding: 0 0 19px 0;
+}
+.content__contact-inputName, .content__contact-inputMail, .content__contact-formArea{
+    width: 100%;
+    padding: 13px 18px;
+    background-color: #68a097;
+    border: none;
+    border-radius: 3px;
+    color: #b5b5b5;
+}
+.content__contact-inputName::-webkit-input-placeholder, .content__contact-inputMail::-webkit-input-placeholder, .content__contact-formArea::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #75b4aa;
+}
+.content__contact-formArea {
+    resize: none;
+    height: 160px;
+    margin: 0 0 30px 0;
+}
+.content__contact-formButton{
+    width: 100%;
+    text-align: center;
+}
+.content__contact-formBtn {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #df5c64;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    width: 260px;
+    height: 50px;
 }
