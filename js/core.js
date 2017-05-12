@@ -48,6 +48,8 @@ $(document).ready(function(){
             this_form.submit();
         }
     });
+
+
     // второй вариант валидации ниже
 
     // var pattern = /^[a-z0-9_-]+@[a-z0-9-]+\.[a-z]{2,6}$/i;
