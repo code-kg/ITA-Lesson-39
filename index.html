@@ -19,7 +19,7 @@
                         <img class="header__img" src="img/logo.png" width="151" height="30" alt="logo">
                     </a>
                 </div>
-                <div class="header__menu-btn menu-btn not-active" id="menu-btn"><span class="menu-btn__span"></span></div>
+                <div class="header__menu-btn menu-btn" id="menu-btn"><span class="menu-btn__span"></span></div>
                 <nav class="header__menu">
                     <ul class="header__menu-list">
                         <li class="header__menu-item">
@@ -64,11 +64,11 @@
             </div>
             <form class="content__contact">
                 <h4 class="content__contact-title">Ask a question</h4>
-                <span class="content__contact-formName"><input class="content__contact-inputName" type="text" placeholder="Name"></span>
-                <span class="content__contact-formMail"><input class="content__contact-inputMail" type="email" placeholder="E-mail"></span>
+                <span class="parent content__contact-formName"><input class="content__contact-inputName" type="text" placeholder="Name"></span>
+                <span id="valid" class="parent content__contact-formMail"><input class="req content__contact-inputMail" type="email" placeholder="E-mail"></span>
                 <textarea class="content__contact-formArea" placeholder="Your question" name="" id="" cols="30" rows="10"></textarea>
                 <div class="content__contact-formButton">
-                    <button class="content__contact-formBtn">Send</button>
+                    <button class="content__contact-formBtn" id="submit">Send</button>
                 </div>
             </form>
         </div>

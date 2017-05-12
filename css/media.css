@@ -13,7 +13,7 @@
 @media screen and (max-width: 807px){
     .header__menu {
         display: block;
-        float: none;
+        /*float: none;*/
     }
     .content__address-title, .content__contact {
         text-align: center;
@@ -26,7 +26,7 @@
         margin-bottom: 80px;
     }
 }
-@media screen and (max-width: 642px){
+@media screen and (max-width: 643px){
     .header__menu {
         display: none;
         position: absolute;

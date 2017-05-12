@@ -19,6 +19,9 @@ body {
     float: left;
     margin: 25px 0 0 30px;
 }
+.header__menu-btn{
+    display: none;
+}
 .header__menu {
     float: right;
     margin: 0 16px 0 0;
@@ -189,4 +192,10 @@ footer{
     font-size: 26px;
     color: #ffffff;
     line-height: 60px;
+}
+.ok, .active{
+    border: 1px solid green;
+}
+.error{
+     border: 1px solid red;
 }
